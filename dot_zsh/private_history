@@ -1,0 +1,140 @@
+git clone https://github.com/corpnewt/MountEFI.git
+cd MountEFI\
+chmod +x MountEFI.command
+./gfxutil-1/gfxutil -f HDEF
+brew install asdf
+brew install neovi
+brew install neovim
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+(echo; echo 'eval "$(/usr/local/bin/brew shellenv)"') >> /Users/watzon/.zprofile
+eval "$(/usr/local/bin/brew shellenv)"
+brew install zsh
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"\
+\
+
+asdf plugin add nodejs
+asdf install nodejs 22.4.0
+asdf global nodejs 22.4.0
+source ~/.zshrc
+reset
+mkdir Projects
+cd Projects
+mkdir personal
+cd personal
+npm create svelte@latest
+npx @svelte-add/tailwindcss@latest
+npx shadcn-svelte@latest init
+npx shadcn-svelte@latest add button
+reboot
+sudo reboot
+sudo spctl --master-disable
+rm -rf .svelte-kit
+cd Downloads
+./MountEFI.
+cd Downloads/MountEFI
+npm run dev
+brew install screenfetch
+screenfetch
+brew install neofetch
+neofetch
+brew install 1password-cli
+cd MountEFI
+cd Projects/personal
+s
+rm -rf honeycomb
+bun --help
+bun create elysia app
+ls
+mv app honeycomb-backend
+cd honeycomb-backend
+cd ~
+mv .zshrc .zshrc.bak
+touch .zshrc
+bash -c "$(curl --fail --show-error --silent --location https://raw.githubusercontent.com/zdharma-continuum/zinit/HEAD/scripts/install.sh)"
+
+brew install fzf
+brew install zoxide
+ls /opt
+which brew
+which bun
+curl -fsSL https://bun.sh/install | bash
+exec /bin/zsh
+bun add drizzle-orm postgres\
+bun add -D drizzle-kit
+bunx drizzle-kit init
+bunx drizzle-kit --help
+bunx drizzle-kit studio
+bunx drizzle-kit introspect
+cd ~/Downloads/MountEFI
+./MountEFI.command
+cd ~/Downloads/OpenCore-0/Utilities/macrecovery
+python3 ./macrecovery.py -b Mac-937A206F2EE63C01 -m 00000000000000000 download
+code 
+code .
+bun add postgres-range
+bunx drizzle-kit generate
+bunx drizzle-kit migrate
+cd ~/Downloads
+which uuidgen
+./rb.bash
+chmod +x rb.bash
+vim rb.bash
+echo "https://ih1.redbubble.net/image.1267163571.4074/st,small,507x507-pad,600x600,f8f8f8.jpg" | rb.bash
+echo "https://ih1.redbubble.net/image.1267163571.4074/st,small,507x507-pad,600x600,f8f8f8.jpg" | ./rb.bash
+/Users/watzon/Desktop/croslic/license.tool ; exit;
+brew install lazygit ripgrep bottom
+brew install pbcopy
+git clone --depth 1 https://github.com/AstroNvim/template ~/.config/nvim\
+
+rm -rf ~/.config/nvim/.git\
+
+cd ~/.config/nvim/lua/
+cd Projects/personal/honeycomb-backend
+brew install pipx
+cd ..
+rm -rf honeycomb-backend
+cls
+bun create next-app
+cd honeycomb
+vim
+cd Projects/personal/honeycomb
+bun add react-query
+bun add zustand
+bun add react-hook-form
+bun add zod
+bun add @headlessui/react
+bun add prisma @prisma/client
+bun add -d typescript @types/node
+bunx prisma init
+sudo mkdir -p /etc/paths.d &&\
+echo /Applications/Postgres.app/Contents/Versions/latest/bin | sudo tee /etc/paths.d/postgresapp
+bunx prisma migrate dev --name init
+bunx prisma generate
+bun dev
+bunx macsync --help
+mkdir ~/.config/zsh
+vim ~/.zshrc
+cd ~/.config/zsh
+touch zinit.zsh
+touch aliases.zsh
+touch config.zsh
+touch init.zsh
+touch p10k.zsh
+vim zinit.zsh
+vim aliases.zsh
+vim p10k.zsh
+vim config.zsh
+vim init.zsh
+nvim ~/.config/zsh/init.zsh
+: 1721444618:0;vim ~/.config/zsh/init.zsh
+: 1721444624:0;vim ~/.config/zsh/config.zsh
+: 1721444687:0;mv ~/.zsh_history ~/.config/zsh/history
+: 1721444698:0;rm .zsh_history
+: 1721444712:0;vim .zprofile
+: 1721444748:0;vim ~/.config/zsh/init.zsh
+: 1721449244:0;brew install chezmoi
+: 1721449353:0;chezmoi init
+: 1721449355:0;cls
+: 1721449381:0;mv ~/.config/zsh ~/.zsh
+: 1721449623:0;cz add ~/.zshrc
+: 1721449625:0;cz add ~/.zsh

@@ -1,0 +1,5 @@
+# This directory is a Syncthing folder marker.
+# Do not delete.
+
+folderID: vpw3k-3thsy
+created: 2024-07-19T20:48:03-06:00

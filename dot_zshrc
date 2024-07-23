@@ -1,0 +1,18 @@
+source "$HOME/.zsh/p10k.zsh"
+source "$HOME/.zsh/zinit.zsh"
+source "$HOME/.zsh/aliases.zsh"
+source "$HOME/.zsh/config.zsh"
+
+# Shell integrations
+eval "$(fzf --zsh)"
+eval "$(zoxide init --cmd cd zsh)"
+
+# bun completions
+[ -s "/Users/watzon/.bun/_bun" ] && source "/Users/watzon/.bun/_bun"
+
+# bun
+export BUN_INSTALL="$HOME/.bun"
+export PATH="$BUN_INSTALL/bin:$PATH"
+
+# shellenv
+eval "$(/usr/local/bin/brew shellenv)"
